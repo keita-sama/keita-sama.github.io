@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background: linear-gradient(90deg, #160f20, #000931);
+    font-family: Montserrat;
+}
+
+h1 {
+    color: white;
+}
+
+.info {
+    text-align: center;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.card-holder {
+    text-align: left;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgb(30, 37, 71), rgb(39, 25, 58));
+    width: 300px;
+    height: 150px;
+    box-shadow: 5px 5px black;
+}
+
+.card-frame {
+    display: flex;
+    justify-content: left;
+}
+
+.user-image {
+    object-fit: scale-down;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.user-details {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.smol {
+    color: rgb(96, 79, 119);
+    font-size: 12px
+}
+
+/*.user-image {
+    background-image: url("https://cdn.discordapp.com/avatars/814179005515038720/e32d4051bf3ca2d8637862e7a117e609.png?size=100");
+    width: 100px;
+    height: 100px;
+    transform: translate(15%, 25%);
+}*/
